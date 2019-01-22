@@ -6,4 +6,4 @@
 #   json.phone_number contact.phone_number
 # end
 
-json.array! @products, partial: "product", as: :product
+json.array! @contacts, partial: "contact", as: :contact
